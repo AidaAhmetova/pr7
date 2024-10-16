@@ -5,7 +5,7 @@ def to_ternary(n):
         return to_ternary(n // 3) + str(n % 3)
 
 
-decimal_number = int(input("Введите десятичное число: "))
+decimal_number = int(float(input("Введите десятичное число: ")))
 if decimal_number == 0:
     print("Троичное представление: 0")
 else:
